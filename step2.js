@@ -32,7 +32,7 @@ function cat(filePath) {
 
 async function webCat(url) {
     try {
-        const res = await axios.get(arg)
+        const res = await axios.get(url)
         console.log(res.data);
 
     } catch (error) {
